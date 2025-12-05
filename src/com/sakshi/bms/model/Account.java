@@ -11,6 +11,11 @@ public class Account {
         public String name(){
              System.out.println("This Project is about bank managment System");
           }
+
+        public String address(){
+         System.out.println("New method created");
+          }
+
 	public Long getAccNo() {
 		return accNo;
 	}
