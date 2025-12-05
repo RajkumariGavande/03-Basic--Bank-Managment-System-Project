@@ -8,6 +8,9 @@ public class Account {
 	private String gender;
 	private int age;
 	private double balance;
+        public String name(){
+             System.out.println("This Project is about bank managment System");
+          }
 	public Long getAccNo() {
 		return accNo;
 	}
